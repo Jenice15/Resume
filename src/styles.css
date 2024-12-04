@@ -1,0 +1,74 @@
+body {
+    font-family: 'Lato', sans-serif !important;
+    font-weight: 400;
+    font-style: normal;
+}
+.container {
+    display: block;
+    text-align: center;
+    width: 80%;
+    max-width: 100%;
+    /* margin: 140px auto; */
+    background-color: white;
+    border: none;
+    /* padding: 20px; */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+        rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+        rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    margin-bottom: 20px;
+}
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+.header {
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 30px;
+    background-color: #f4f4f4;
+    font-family: 'Lato', sans-serif;
+}
+.my-img {
+    width: 80px;
+    border: 1px solid black;
+    border-radius: 50%;
+    float: right;
+    margin-top: -100px;
+}
+.verticle-line {
+    border-right: 2px solid black;
+    height: 200px;
+}
+.contact-information {
+    text-align: left;
+    margin: 20px;
+    width: 450px;
+}
+.profile {
+    font-size: 16px;
+    margin-top: 30px;
+    width: 450px;
+}
+.professional-skills {
+    text-align: left;
+    margin: 20px;
+    width: 450px;
+}
+.experience {
+    font-size: 16px;
+    margin-top: 30px;
+    width: 450px;
+}
+.verticle-line-skills {
+    border-right: 2px solid black;
+    height: 450px;
+}
+hr {
+    border: 1px solid black;
+}
