@@ -72,3 +72,18 @@ a {
 hr {
     border: 1px solid black;
 }
+
+@media (max-width: 600px) {
+    .verticle-line {
+        border-right: none;
+    }
+    .verticle-line-skills {
+        border-right: none;
+    }
+    .container {
+        box-shadow: none;
+    }
+    .header {
+        justify-content: center;
+    }
+}
