@@ -74,6 +74,10 @@ hr {
 }
 
 @media (max-width: 600px) {
+    .container {
+        display: block;
+        margin-left: 0;
+    }
     .verticle-line {
         border-right: none;
     }
@@ -85,5 +89,44 @@ hr {
     }
     .header {
         justify-content: center;
+        width: 490px;
+    }
+    .h4 {
+        font-size: 28px;
+    }
+    .profile-h3 {
+        margin-top: -30px;
+        font-size: 28px;
+        position: relative;
+        left: -115px;
+    }
+    .profile-p {
+        text-align: left;
+        margin-left: 40px;
+    }
+    hr {
+        display: none;
+    }
+    .professional-skills {
+        font-size: 26px;
+        margin-left: 18px;
+    }
+    .experience {
+        margin-top: -90px;
+    }
+    .project-details {
+        text-align: left;
+        margin-left: 40px;
+    }
+    .project-h4 {
+        font-size: 28px;
+    }
+
+    .education-container {
+        text-align: left;
+        margin-left: 40px;
+    }
+    .education {
+        font-size: 26px;
     }
 }
